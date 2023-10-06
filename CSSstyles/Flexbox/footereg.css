@@ -1,0 +1,24 @@
+footer *{
+    color: brown;
+    font-size:x-small
+}
+footer{
+    background:burlywood ;
+}
+footer,div{
+border-radius: ;
+padding:5px ;
+}
+footer{
+    display: flex;
+}
+footer div{
+flex: 1;
+margin:5px;
+}
+li{
+list-style: none;
+}
+li,a{
+text-decoration: none;
+}
