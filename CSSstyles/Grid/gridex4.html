@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .grid{
+        border:2px solid blue;
+        grid-template-columns:repeat(4,25%);
+        padding:15px;
+     }
+     .column{
+        border:2px solid blue;
+       margin-bottom: 15px;
+       display:flex;
+       justify-content: center;
+        padding: 10px;
+        height: 200px;
+        margin-right:5px;
+       
+     }
+     
+    </style>
+</head>
+<body>
+  
+    <div class="grid">
+        <div class="column">
+            <div style="border:2px solid blue; margin-right: 5px;width:120px">1.1</div>
+            
+            <div  style="border:2px solid blue; margin-right: 5px;width:120px">1.2</div>
+                
+        </div>
+    </div>
+    <div class="column">Two</div>
+    <div class="column">Three</div>
+    <div class="column">Four</div>
+    <div class="column">Five</div>
+    <div class="column">Six</div>
+
+</body>
+</html>
